@@ -1,0 +1,27 @@
+{
+	"name": "e-commerce-three",
+	"version": "1.0.0",
+	"description": "MERN ProShop",
+	"main": "server.js",
+	"scripts": {
+		"start": "node backend/server",
+		"server": "nodemon backend/server",
+		"client": "npm start --prefix frontend",
+		"dev": "concurrently \"npm run server\" \"npm run client\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/gkrishna16/e-commerce.git"
+	},
+	"author": "Gopal",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/gkrishna16/e-commerce/issues"
+	},
+	"homepage": "https://github.com/gkrishna16/e-commerce#readme",
+	"devDependencies": {
+		"concurrently": "^6.2.1",
+		"install": "^0.13.0",
+		"nodemon": "^2.0.12"
+	}
+}
